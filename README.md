@@ -22,7 +22,7 @@
 ![image](https://github.com/kurrosan/DataAnalysis/assets/120035199/81125b73-6254-4bcc-994a-57c5f900b21e)
 
 
-## <a id="title2">Как работает код</a>
+## <a id="title3">Как работает код</a>
 Загружаем нужные библиотеки:
 ```python
 import pandas as pd
