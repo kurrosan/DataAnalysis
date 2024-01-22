@@ -17,6 +17,9 @@
 Или в Kaggle:  
 ![image](https://github.com/kurrosan/DataAnalysis/assets/120035199/5346a717-48c4-4725-8b34-bce180cf0d7f)
 
+После этого запустите код 
+После выполнения всего кода, у нас появится файл с названием submition.csv
+![image](https://github.com/kurrosan/DataAnalysis/assets/120035199/81125b73-6254-4bcc-994a-57c5f900b21e)
 
 
 ## <a id="title2">Как работает код</a>
@@ -144,4 +147,13 @@ plt.show()
 ```
 ![image](https://github.com/kurrosan/DataAnalysis/assets/120035199/282005f5-3fc1-4c45-8326-6a1b17323db7)
 
+```python
+y_pred = best_model.predict(X_test)
+
+# Создание DataFrame с идентификаторами тестовых данных и предсказанными метками
+submission_df = pd.DataFrame({'Id': range(1, len(X_test) + 1), 'PredictedLabel': y_pred})
+
+# Запись DataFrame в CSV файл
+submission_df.to_csv('submition.csv', index=False) 
+```
 
