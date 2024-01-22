@@ -1,8 +1,15 @@
-# DataAnalysis
-Для запуска программы нужно:
-1. Cкачать файл creditcards.csv по ссылке:
-  https://www.kaggle.com/mlg-ulb/creditcardfraud
-2. Добавить ссылку на датасет в части программы:
-  data = pd.read_csv('/content/gdrive/MyDrive/Лабораторные работы/creditcard.csv')
+Применение методов машинного обучения для обнаружения мошеннической активности в финансовых транзакциях
+===========
+[Данные, нужные для запуска кода](#title1)
 
+[Запуск кода](#title1)
 
+[Как работает код](#title1)
+
+## <a id="title1"Данные, нужные для запуска кода</a>
+Лабораторная_Технологии_Интел_Анализа_Данных.ipynb - основная программа
+Датасет [creditcard.csv]([https://www.example.com](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data))
+
+## <a id="title1"Запуск кода</a>
+
+## <a id="title1"Как работает код</a>
