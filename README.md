@@ -7,11 +7,17 @@
 [Как работает код](#title1)
 
 ## <a id="title1">Данные, нужные для запуска кода</a>
-Лабораторная_Технологии_Интел_Анализа_Данных.ipynb - основная программа  
+Лабораторная_Технологии_Интел_Анализа_Данных.ipynb - основная программа   
 Датасет [creditcard.csv](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data)
 
 ## <a id="title2">Запуск кода</a>
-Лабораторная_Технологии_Интел_Анализа_Данных.ipynb - основная программа
+Загрузите  [creditcard.csv](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data) в Google Colab  
+![image](https://github.com/kurrosan/DataAnalysis/assets/120035199/bfe02eae-9b3b-4a03-ae5b-15d19a817bdf)
+
+Или в Kaggle:  
+![image](https://github.com/kurrosan/DataAnalysis/assets/120035199/5346a717-48c4-4725-8b34-bce180cf0d7f)
+
+
 
 ## <a id="title2">Как работает код</a>
 Загружаем нужные библиотеки:
